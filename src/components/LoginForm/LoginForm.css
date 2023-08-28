@@ -1,0 +1,119 @@
+.nam-shop-login-form-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nam-shop-login-form-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-title {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-input {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-input svg {
+    width: 15px;
+    height: 15px;
+    padding: 10px 0 10px 10px;
+    border-radius: 5px;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-input input {
+    min-width: 350px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-button {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-button button {
+    min-width: 350px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #00BFA5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-button button:hover {
+    background: #00a189;
+    color: #fff;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-register {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-register span {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-register span:hover {
+    color: #00BFA5;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-forget-password {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.nam-shop-login-form-container .nam-shop-login-form .nam-shop-login-form-forget-password:hover {
+    color: #00BFA5;
+}

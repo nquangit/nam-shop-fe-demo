@@ -1,0 +1,105 @@
+.nam-shop-product-list-container {
+    padding-top: 180px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ebebeb;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item-container {
+    width: 17%;
+    height: 280px;
+    margin: 10px;
+    transition: all .3s ease-in-out;
+    background-color: #ffffff;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item-container:hover {
+    transform: scale(1.05);
+    border: 2px solid #00BFA5;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item-container div {
+    cursor: pointer;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item-container div:hover {
+    cursor: pointer;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 280px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item .nam-shop-product-list-item-name {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 8px 10px;
+    align-self: flex-start;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item .nam-shop-product-list-item-price {
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 8px 0px;
+    text-align: center;
+    overflow: hidden;
+    color: #00BFA5;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item .nam-shop-product-list-item-add-to-cart {
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item .nam-shop-product-list-item-add-to-cart button {
+    width: 100%;
+    height: 100%;
+    background-color: #00BFA5;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    padding: 5px 0px;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item .nam-shop-product-list-item-image-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.nam-shop-product-list-container .nam-shop-product-list .nam-shop-product-list-item .nam-shop-product-list-item-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

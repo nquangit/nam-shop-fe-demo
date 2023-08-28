@@ -1,0 +1,221 @@
+.nam-shop-header-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0 20px;
+    height: 120px;
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    background-color: rgb(255, 193, 7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition: all .1s linear;
+}
+
+.nam-shop-header-section {
+    max-width: 1200px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nam-shop-nav-container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+    color: #333333;
+}
+
+
+.nam-shop-nav-container .nam-shop-nav-register,
+.nam-shop-nav-container .nam-shop-nav-login,
+.nam-shop-nav-container .nam-shop-nav-notification {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+.nam-shop-nav-container .nam-shop-nav-register:hover,
+.nam-shop-nav-container .nam-shop-nav-login:hover,
+.nam-shop-nav-container .nam-shop-nav-notification:hover {
+    color: hsla(0, 0%, 100%, .8);
+    cursor: pointer;
+}
+
+.nam-shop-nav-container .nam-shop-nav-register svg,
+.nam-shop-nav-container .nam-shop-nav-login svg,
+.nam-shop-nav-container .nam-shop-nav-notification svg {
+    padding-right: 5px;
+}
+
+.nam-shop-search-container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 15px 0;
+}
+
+.nam-shop-search-container .nam-shop-search-box {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+}
+
+.nam-shop-search-container .nam-shop-search-box .nam-shop-search-form {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 5px 20px;
+}
+
+.nam-shop-search-container .nam-shop-search-box .nam-shop-search-form .nam-shop-search-input {
+    /* border: none; */
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    border: 0;
+}
+
+.nam-shop-search-container .nam-shop-search-box .nam-shop-search-form .nam-shop-search-button {
+    height: 100%;
+    width: 60px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: #FFC107;
+    border-radius: 5px;
+}
+
+.nam-shop-search-container .nam-shop-cart {
+    position: relative;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 5px 50px;
+}
+
+.nam-shop-search-container .nam-shop-cart .nam-shop-cart-link .nam-shop-cart-count {
+    position: absolute;
+    top: -10px;
+    right: 25px;
+    background-color: #fff;
+    color: #00BFA5;
+    font-size: 0.7em;
+    font-weight: 700;
+    padding: 1px 8px;
+    border-radius: 50%;
+}
+
+.nam-shop-search-container .nam-shop-cart .nam-shop-cart-link span .nam-shop-cart-icon svg {
+    color: #fff;
+    cursor: pointer;
+    width: auto;
+    height: 25px;
+}
+
+.nam-shop-header-section .nam-shop-logo-name {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.nam-shop-header-section .nam-shop-logo-name .nam-shop-header-logo {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.nam-shop-header-section .nam-shop-logo-name .nam-shop-header-logo img {
+    height: 40px;
+    width: auto;
+}
+
+.nam-shop-header-section .nam-shop-logo-name .nam-shop-header-name {
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    min-width: 100%;
+    margin-left: 10px;
+}
+
+.nam-shop-user-popover-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 130px;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+.nam-shop-user-popover-content .nam-shop-user-popover-content-item {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nam-shop-user-popover-content .nam-shop-user-popover-content-item:hover {
+    color: #00BFA5;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.nam-shop-cart {
+    position: relative;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.nam-shop-cart-item {
+    min-width: 350px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    overflow: auto;
+}
+
+.nam-shop-cart-item:hover {
+    color: #00BFA5;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.nam-shop-cart-item .nam-shop-cart-item-image {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.nam-shop-cart-item .nam-shop-cart-item-image img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}

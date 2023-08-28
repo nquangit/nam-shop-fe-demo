@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Love+Ya+Like+A+Sister&family=Patrick+Hand&family=Raleway:wght@300&family=Work+Sans:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Farsan', cursive;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-family: 'Patrick Hand', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Remove all link decoration */
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid gray;
+}
